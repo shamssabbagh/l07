@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "gmail-calendar": {
+      "command": "uv",
+      "args": [
+        "run",
+        "--directory",
+        "C:\\Users\\shams\\OneDrive\\Desktop\\l07",
+        "server.py"
+      ],
+      "env": {
+        "GOOGLE_PRIVATE_DIR": "C:\\my-private"
+      }
+    }
+  }
+}

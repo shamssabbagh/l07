@@ -1,0 +1,20 @@
+[project]
+name = "gmail-calendar"
+version = "0.1.0"
+description = "Gmail and Google Calendar MCP server"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "google-api-python-client>=2.100.0",
+    "google-auth-httplib2>=0.2.0",
+    "google-auth-oauthlib>=1.2.0",
+    "mcp<2",
+    "python-dateutil>=2.8.2",
+]
+
+[project.scripts]
+gmail-calendar = "server:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

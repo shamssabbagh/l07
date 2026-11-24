@@ -1,0 +1,16 @@
+# Sensitive credential files (Strictly ignored)
+token.json
+client_secret*.json
+credentials.json
+.env
+
+# Python / Environment
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+dist/
+build/
+*.egg-info/
